@@ -8,5 +8,5 @@ int main () {
     cout << "Insert a value Degree of Fahrenheit to switch them into Celcius: ";
     double Value;
     cin >> Value;
-    cout << "The " << Value << "*F is... " << (Value - 273) << "*C";
+    cout << "The " << Value << "*F is... " << (Value - 32) / 1.8 << "*C";
 }
